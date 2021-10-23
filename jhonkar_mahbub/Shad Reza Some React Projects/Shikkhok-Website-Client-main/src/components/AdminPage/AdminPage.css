@@ -1,0 +1,24 @@
+.adminOptions{
+    margin: 3rem 1rem;
+}
+
+.topPart{
+    display:flex;
+    justify-content: space-around;
+    width:auto;
+    background:bisque;
+    padding: 1.5rem;
+    border-radius:15px;
+}
+
+.bottomPart{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.mustBeBig{
+    text-align: center;
+    margin: 14.25% auto;
+}
+

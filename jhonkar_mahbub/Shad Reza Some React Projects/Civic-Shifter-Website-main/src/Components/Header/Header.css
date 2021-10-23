@@ -1,0 +1,44 @@
+.headerMainDiv{
+    display:flex;
+    padding:0;
+}
+
+.headerTitleOnLeft{
+    width:20%;
+    text-align:left;
+    margin: auto;
+    margin-left: 1rem;
+}
+
+.headerNavLinksOnRight{
+    margin: auto;
+    width:80%;
+    text-align:right;
+    display:table;
+    float: left;
+    vertical-align:middle;
+    height:60px;
+}
+
+.navLinks{
+    text-decoration: none;
+    margin: auto 1rem;
+    padding: 0;
+    color: aliceblue;
+}
+
+.headerNavLinksOnRight nav .navLinks:focus{
+    color: coral;
+}
+
+.headerNavLinksOnRight nav .navLinks:hover{
+    color: greenyellow; 
+}
+
+.imageOfUser{
+    width:50px;
+    border-radius: 100%;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}

@@ -1,0 +1,13 @@
+.loginPageMainDiv{
+    display: flex;
+    justify-content: center;
+    margin: 9.45% auto;
+}
+
+.loginPart{
+    text-align: center;
+    background: coral;
+    padding: 4rem;
+    border-radius: 20px;
+    color:midnightblue;
+}

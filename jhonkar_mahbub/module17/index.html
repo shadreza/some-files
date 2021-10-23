@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <style>
+        * {
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 id="hi">DOM!</h3>
+    <section class="hhh">
+        <p class="pa">Hi</p>
+        <p class="pa">Hi</p>
+        <p class="pa">Hi</p>
+        <p class="pa">Hi</p>
+        <p class="pa">Hi</p>
+        <p class="pa">Hi</p>
+    </section>
+    <button id="btn">Add More!</button>
+    <!-- <script>
+        function del() {
+            var items = document.getElementsByClassName('pa');
+            for (let i = 0; i < items.length; i++) {
+                const element = items[i];
+                element.addEventListener('click', function () {
+                    element.parentNode.removeChild(element);
+                })
+            }
+        }
+        del();
+        document.getElementById('btn').addEventListener('click', function (event) {
+            var parentId = document.getElementsByClassName('hhh');
+            var newElemnt = document.createElement('p');
+            newElemnt.innerText = 'HiHiHi';
+            newElemnt.className='pa';
+            parentId[0].appendChild(newElemnt);
+            del();
+        })
+    </script> -->
+    <script>
+        document.querySelector('button').addEventListener('click',function(){
+            var parent = document.getElementsByClassName('hhh');
+            var child = document.createElement('p');
+            child.className='pa';
+            child.innerText='NeW Kid';
+            parent[0].appendChild(child);
+        })
+        document.getElementsByClassName('hhh')[0].addEventListener('click',function(event){
+            event.target.parentNode.removeChild(event.target);
+        })
+    </script>
+</body>
+
+</html>

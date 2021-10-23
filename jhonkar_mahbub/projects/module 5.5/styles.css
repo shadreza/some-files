@@ -1,0 +1,44 @@
+h1 {
+    color: darkorange;
+    display: inline-block;
+}
+
+h1:focus {
+    color: green;
+}
+
+input:focus {
+    font-size: 20px;
+    color: lightcoral;
+}
+
+li:nth-child(2n) {
+    color: lightpink;
+    font-size: 25px;
+}
+
+li:nth-child(2n+1)::after {
+    content: " this is a pseudoelemts . you can't selesct me!";
+    color: chocolate;
+}
+
+body {
+    counter-reset: i;
+}
+
+h1::before {
+    content: "heading "counter(i)" asd";
+    counter-increment: i;
+}
+
+li {
+    color: lightpink;
+}
+
+.a {
+    color: aqua;
+}
+
+#b {
+    color: black;
+}

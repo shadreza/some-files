@@ -1,0 +1,33 @@
+.productsGalleryMainDiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+    margin : 3rem auto;
+    padding: 1rem;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.noPrd{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.noPrdText{
+    text-align: center;
+}
+
+.prdGallery{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 992px) {
+    .productsGalleryMainDiv{
+        grid-template-columns: auto;
+    }
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section{
+            display: grid;
+            margin-top: 10rem;
+            grid-gap: 30px 15px;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(6,1fr);
+        }
+        .article{
+            background-color: blanchedalmond;
+            text-align: center;
+        }
+        .article-1{
+            grid-row: 1/span 3;
+            grid-column: 2/span 2;
+        }
+        .grid__container{
+            display: grid;
+            grid-template-columns: repeat(6 , 1fr);
+            grid-gap:10px;
+        }
+        .box{
+            padding: 2px;
+            border: 2px solid blue;
+        }
+        .calander ul li{
+            list-style: none;
+            font-size: 20px;
+            box-shadow: 0 0 40px blue;
+            width: 30px;
+            height: 30px;
+            background-color: rgb(188, 188, 236);
+            color: cornsilk;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .calander ul{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            grid-gap: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid__container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+        <div class="box">11</div>
+        <div class="box">12</div>
+        <div class="box">13</div>
+    </div>
+    <br><br><br>
+    <div class="calander">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+        </ul>
+    </div>
+    <section class="section">
+        <article class="article-1 article">
+            <h3>Article - 1</h3>
+        </article>
+        <article class="article-2 article">
+            <h3>Article - 2</h3>
+        </article>
+        <article class="article-3 article">
+            <h3>Article - 3</h3>
+        </article>
+        <article class="article-4 article">
+            <h3>Article - 4</h3>
+        </article>
+        <article class="article-5 article">
+            <h3>Article - 5</h3>
+        </article>
+        <article class="article-6 article">
+            <h3>Article - 6</h3>
+        </article>
+        <article class="article-7 article">
+            <h3>Article - 7</h3>
+        </article>
+        <article class="article-8 article">
+            <h3>Article - 8</h3>
+        </article>
+        <article class="article-9 article">
+            <h3>Article - 9</h3>
+        </article>
+        <article class="article-10 article">
+            <h3>Article - 10</h3>
+        </article>
+        <article class="article-11 article">
+            <h3>Article - 11</h3>
+        </article>
+        <article class="article-12 article">
+            <h3>Article - 12</h3>
+        </article>
+        <article class="article-13 article">
+            <h3>Article - 13</h3>
+        </article>
+        <article class="article-14 article">
+            <h3>Article - 14</h3>
+        </article>
+        <article class="article-15 article">
+            <h3>Article - 15</h3>
+        </article>
+    </section>
+</body>
+</html>

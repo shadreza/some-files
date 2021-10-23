@@ -1,0 +1,49 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+
+.bottom__cloud {
+  width: 40%;
+  height: 30%;
+  position: absolute;
+  top: 12rem;
+}
+
+h1 {
+  position: relative;
+  top: 12rem;
+  font-family: 'Redressed', cursive;
+}
+
+.H2 {
+  position: relative;
+  top: 12rem;
+  font-family: 'Redressed', cursive;
+}
+
+.image__of__mountain {
+  width: 100%;
+  margin-top: 15rem;
+}
+
+.top {
+  text-align: center;
+  position: relative;
+}
+
+.top__cloud {
+  width: 40%;
+  height: 30%;
+  position: absolute;
+  right: 0;
+}
+
+.profile{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.skills{
+  text-align: center;
+}

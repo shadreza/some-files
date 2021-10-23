@@ -1,0 +1,15 @@
+.singlePrdInfoInOrderPageMainDiv{
+    padding: 1rem;
+    margin: 1rem auto;
+    background:peachpuff;
+    border-radius: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+
+.singlePrdInfoInOrderPageMainDiv img{
+    width: 100px;
+    border-radius: 100%;
+}

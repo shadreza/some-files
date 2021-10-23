@@ -1,0 +1,14 @@
+.userInfoMainDiv{
+    display:flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.userInfo{
+    text-align: center;
+    background: coral;
+    padding: 3rem;
+    border-radius: 20px;
+    color:midnightblue;
+}
+

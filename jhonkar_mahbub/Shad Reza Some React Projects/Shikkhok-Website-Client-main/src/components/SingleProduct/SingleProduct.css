@@ -1,0 +1,32 @@
+.footerOfProduct{
+    display:flex;
+}
+
+.priceOfPrd{
+    width:60%;
+    text-align:left;
+}
+
+.btnOfPrdBuying{
+    width:40%;
+    text-align:right;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.needsMaxHeight500{
+    height: 480px;
+    overflow: scroll;
+}
+
+.needsMaxHeight500::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+  .needsMaxHeight500 {
+    -ms-overflow-style: none;
+  }
+  

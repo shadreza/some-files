@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.audio__class {
+    background-color: coral;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 35px;
+}
+
+audio:focus {
+    outline: none;
+}
+
+.navbar {
+    list-style: none;
+    height: 50px;
+    background-color: gainsboro;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.navbar>li {
+    position: relative;
+    left: 80%;
+    float: left;
+    padding: 10px;
+    vertical-align: 30px;
+}
+
+.navbar>li:hover ul {
+    position: absolute;
+    display: block;
+    left: -25px;
+    width: 50px;
+}
+
+.navbar>li>ul>li {
+    background-color: pink;
+}
+
+.navbar>li>ul {
+    display: none;
+    list-style: none;
+    color: orangered;
+    line-height: 1.5;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar>li>ul>li:hover {
+    background-color: silver;
+}
+
+svg {
+    border: 1px solid blue;
+    width: 80%;
+    height: 80%;
+    margin-top: 2rem;
+}
+
+.overflow {
+    width: 200px;
+    height: 100px;
+    border: 2px solid violet;
+    overflow: scroll;
+}
+
+.box {
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    transition: background-color 3s ease-in-out;
+}
+
+.box:hover {
+    background-color: coral;
+    transform: rotate(30deg);
+}

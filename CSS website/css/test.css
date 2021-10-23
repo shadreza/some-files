@@ -1,0 +1,19 @@
+/*making the margin of the body 0*/
+body {
+  margin: 0;
+}
+
+/*resizing the background image fit to the screen*/
+.img1 {
+  
+  width: 100%;
+}
+
+/*resizing the frontimage and giving it a absolute position*/
+.img2 {
+  height: 200px;
+  left: 42.5%;
+  position: absolute;
+  top: 20%;
+  width: 200px;
+}
